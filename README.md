@@ -82,20 +82,6 @@ The steps are as follows:
     - There are 4 dashboards that were created, which can be observed by clicking the tabs at the top. The 4 dashboards include `Overall Statistics` for Charon Creators, `Statistics by Creator` in which you can interact to look at different statistics for each individual creator, `Category Trends` to look at different statistics for different categories, although most of the creators create content for the Gaming category, and lastly `Inferential Statistics` to look at all the queries that showed statistical significance. 
 9. (Optional) Use the [gspread API](./g_spread.py) to export of all these values to a google spreadsheet if working in a team. To use this API refer to its document with this [link](https://docs.gspread.org/en/latest/index.html).
 
-## Sources
-### Get Charon
-https://charoncreative.com/creator
-### Get Youtube Data API v3
-https://console.cloud.google.com
-https://developers.google.com/youtube/v3
-https://support.google.com/youtube/answer/72857?hl=en
-### Get gspread
-https://docs.gspread.org/en/latest/index.html
-### Get PostgreSQL
-https://www.postgresql.org
-### Get Tableau Public
-https://public.tableau.com/app/profile/roberto.parkr/vizzes
-
 ## Limitations and Discussion
 In this section the limitations of the project and improvements that could be made for the project will be discussed.  
 
@@ -109,3 +95,17 @@ In this section the limitations of the project and improvements that could be ma
 2. Apply data wrangling for different csv because I joined all the csv first and then performed data wrangling, there is only one table from which we make SQL queries for data analysis, which would make the process very inefficient and slow if the dataset was way larger.
 3. Apply machine learning clustering techniques for making different categories for the queries involing time like what time the videos were uploaded, categorizing video length, and title length, because these were done with heuristics.
 4. Perform Computer Vision techniques to analyze if there are certain thumbnails that attract more viewers than other thumbnails. It may be complicated but would be a good analysis to see if there is a certain pattern, for example, in a lot of Charon Creative videos' thumbnails you can see that the Youtuber's face is photoshopped into other photos.
+
+## Sources
+### Get Charon
+https://charoncreative.com/creator
+### Get Youtube Data API v3
+https://console.cloud.google.com
+https://developers.google.com/youtube/v3
+https://support.google.com/youtube/answer/72857?hl=en
+### Get gspread
+https://docs.gspread.org/en/latest/index.html
+### Get PostgreSQL
+https://www.postgresql.org
+### Get Tableau Public
+https://public.tableau.com/app/profile/roberto.parkr/vizzes
