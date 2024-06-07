@@ -100,9 +100,9 @@ In this section the limitations of the project and improvements that could be ma
 ### Get Charon
 https://charoncreative.com/creator
 ### Get Youtube Data API v3
-https://console.cloud.google.com
-https://developers.google.com/youtube/v3
-https://support.google.com/youtube/answer/72857?hl=en
+https://console.cloud.google.com  
+https://developers.google.com/youtube/v3  
+https://support.google.com/youtube/answer/72857?hl=en  
 ### Get gspread
 https://docs.gspread.org/en/latest/index.html
 ### Get PostgreSQL
